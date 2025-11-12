@@ -97,8 +97,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [AOS Library](https://michalsnik.github.io/aos/)
 
 ## 📬 Contact
-For any inquiries or feedback, please contact [Your Email] or open an issue on GitHub.
+For any inquiries or feedback, please contact ahmadafzaaldev1@gmail.com or open an issue on GitHub.
 
 ---
 
-Made with ❤️ by [Your Name] | [Your Website]
