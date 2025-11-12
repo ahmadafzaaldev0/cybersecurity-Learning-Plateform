@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <script>
+        // Remove no-js class if JavaScript is enabled
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Knights - Your Guide to Cybersecurity Awareness</title>
+    <meta name="description" content="Learn how to protect yourself from cyber threats with our comprehensive security guides, tips, and resources. Stay informed about the latest cybersecurity trends.">
+    <meta name="keywords" content="cybersecurity, cyber threats, online safety, phishing, malware, ransomware, password security, 2fa, mfa, data protection">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Cyber Knights</a>
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="active hover-3d"><span>Home</span></a>
+                <a href="#threats" class="hover-3d"><span>Threats</span></a>
+                <a href="#safety-tips" class="hover-3d"><span>Safety Tips</span></a>
+                <a href="#resources" class="hover-3d"><span>Resources</span></a>
+                <a href="#quiz" class="hover-3d"><span>Quiz</span></a>
+                <a href="#glossary" class="hover-3d"><span>Glossary</span></a>
+                <a href="#contact" class="hover-3d"><span>Contact</span></a>
+            </nav>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero perspective-container">
+        <div id="globe-container"></div>
+        <div class="container">
+            <h1 id="cyber-title">Cyber Knights</h1>
+            <p>Learn how to protect yourself from cyber threats with our comprehensive security guides and resources.</p>
+            <a href="#threats" class="btn btn-3d">
+                <span>Learn More</span>
+                <i class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Threats Section -->
+    <section id="threats" class="section">
+        <div class="container">
+            <h2>Common Cyber Threats</h2>
+            <div class="threats-grid">
+                <div class="threat-card">
+                    <i class="fas fa-fish"></i>
+                    <h3>Phishing</h3>
+                    <p>Deceptive attempts to steal sensitive information by pretending to be a trustworthy entity.</p>
+                </div>
+                <div class="threat-card">
+                    <i class="fas fa-virus"></i>
+                    <h3>Malware</h3>
+                    <p>Malicious software designed to harm or exploit any device, service, or network.</p>
+                </div>
+                <div class="threat-card">
+                    <i class="fas fa-key"></i>
+                    <h3>Weak Passwords</h3>
+                    <p>Easily guessable or reused passwords that compromise account security.</p>
+                </div>
+                <div class="threat-card">
+                    <i class="fas fa-user-secret"></i>
+                    <h3>Social Engineering</h3>
+                    <p>Psychological manipulation to trick individuals into revealing confidential information.</p>
+                </div>
+                <div class="threat-card">
+                    <i class="fas fa-lock"></i>
+                    <h3>Ransomware</h3>
+                    <p>Malicious software that encrypts files and demands payment for their release.</p>
+                </div>
+                <div class="threat-card">
+                    <i class="fas fa-wifi"></i>
+                    <h3>Man-in-the-Middle</h3>
+                    <p>Attackers secretly intercept and relay communications between two parties.</p>
+                </div>
+                <div class="threat-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI-Powered Attacks</h3>
+                    <p>Cybercriminals use artificial intelligence to automate and enhance their attack methods.</p>
+                </div>
+                <div class="threat-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Vulnerabilities</h3>
+                    <p>Misconfigured cloud services and APIs that expose sensitive data to unauthorized access.</p>
+                </div>
+                <div class="threat-card">
+                    <i class="fas fa-mobile"></i>
+                    <h3>Mobile Malware</h3>
+                    <p>Malicious software specifically designed to target mobile devices and apps.</p>
+                </div>
+                <div class="threat-card">
+                    <i class="fas fa-server"></i>
+                    <h3>DDoS Attacks</h3>
+                    <p>Overwhelming a target system with traffic from multiple sources to disrupt service.</p>
+                </div>
+                <div class="threat-card">
+                    <i class="fas fa-file-invoice"></i>
+                    <h3>Business Email Compromise</h3>
+                    <p>Impersonating executives to trick employees into transferring money or sensitive data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Tips Section -->
+    <section id="safety-tips" class="section">
+        <div class="container">
+            <h2>Safety Tips</h2>
+            <div class="tips-grid">
+                <div class="tip">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Use Strong Passwords</h3>
+                    <p>Create complex, unique passwords for each account and use a password manager.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-lock"></i>
+                    <h3>Enable 2FA/MFA</h3>
+                    <p>Add an extra layer of security with multi-factor authentication.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-sync-alt"></i>
+                    <h3>Update Regularly</h3>
+                    <p>Keep your operating system, software, and apps up to date with the latest security patches.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-link"></i>
+                    <h3>Verify Links & Attachments</h3>
+                    <p>Always verify the sender and hover over links before clicking. Don't open suspicious attachments.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-wifi-slash"></i>
+                    <h3>Use Secure Networks</h3>
+                    <p>Avoid using public Wi-Fi for sensitive transactions. Use a VPN when necessary.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-database"></i>
+                    <h3>Backup Data</h3>
+                    <p>Regularly back up important data using the 3-2-1 rule: 3 copies, 2 different media, 1 offsite.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Be Wary of Social Engineering</h3>
+                    <p>Verify requests for sensitive information, even if they appear to come from a trusted source.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Secure Mobile Devices</h3>
+                    <p>Use biometrics, strong passcodes, and keep your mobile OS and apps updated.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Secure Cloud Storage</h3>
+                    <p>Enable encryption, use strong authentication, and regularly review sharing permissions for cloud services.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-home"></i>
+                    <h3>Secure Home Network</h3>
+                    <p>Change default router credentials, enable WPA3 encryption, and create a separate guest network.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Monitor Financial Accounts</h3>
+                    <p>Regularly check bank and credit card statements for unauthorized transactions.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-shield-virus"></i>
+                    <h3>Use Antivirus Software</h3>
+                    <p>Install and maintain reputable antivirus and anti-malware solutions on all devices.</p>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-bell"></i>
+                    <h3>Enable Security Alerts</h3>
+                    <p>Set up alerts for suspicious activities on your financial and online accounts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="section">
+        <div class="container">
+            <h2>Trusted Resources</h2>
+            <div class="resources-grid">
+                <div class="resource-card card-3d" data-aos="fade-up" data-aos-delay="200">
+                    <a href="https://www.cisa.gov/" target="_blank" class="resource-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>CISA</h3>
+                        <p>Cybersecurity & Infrastructure Security Agency - Government resources and alerts</p>
+                    </a>
+                </div>
+                <div class="resource-card card-3d" data-aos="fade-up" data-aos-delay="400">
+                    <a href="https://www.consumer.ftc.gov/" target="_blank" class="resource-card">
+                        <i class="fas fa-balance-scale"></i>
+                        <h3>FTC</h3>
+                        <p>Federal Trade Commission - Consumer protection and scam alerts</p>
+                    </a>
+                </div>
+                <div class="resource-card card-3d" data-aos="fade-up" data-aos-delay="600">
+                    <a href="https://www.staysafeonline.org/" target="_blank" class="resource-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Stay Safe Online</h3>
+                        <p>National Cyber Security Alliance - Education and resources</p>
+                    </a>
+                </div>
+                <div class="resource-card card-3d" data-aos="fade-up" data-aos-delay="800">
+                    <a href="https://haveibeenpwned.com/" target="_blank" class="resource-card">
+                        <i class="fas fa-search"></i>
+                        <h3>Have I Been Pwned?</h3>
+                        <p>Check if your email or phone is in a data breach</p>
+                    </a>
+                </div>
+                <div class="resource-card card-3d" data-aos="fade-up" data-aos-delay="1000">
+                    <a href="https://www.eff.org/" target="_blank" class="resource-card">
+                        <i class="fas fa-lock"></i>
+                        <h3>EFF</h3>
+                        <p>Electronic Frontier Foundation - Digital privacy tools and guides</p>
+                    </a>
+                </div>
+                <div class="resource-card card-3d" data-aos="fade-up" data-aos-delay="1200">
+                    <a href="https://www.owasp.org/" target="_blank" class="resource-card">
+                        <i class="fas fa-code"></i>
+                        <h3>OWASP</h3>
+                        <p>Open Web Application Security Project - Security resources</p>
+                    </a>
+                </div>
+                <div class="resource-card card-3d" data-aos="fade-up" data-aos-delay="1400">
+                    <a href="https://www.us-cert.gov/" target="_blank" class="resource-card">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h3>US-CERT</h3>
+                        <p>United States Computer Emergency Readiness Team - Alerts and tips</p>
+                    </a>
+                </div>
+                <div class="resource-card card-3d" data-aos="fade-up" data-aos-delay="1600">
+                    <a href="https://www.krebsonsecurity.com/" target="_blank" class="resource-card">
+                        <i class="fas fa-newspaper"></i>
+                        <h3>Krebs on Security</h3>
+                        <p>In-depth security news and investigation</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="section">
+        <div class="container">
+            <h2>Test Your Knowledge</h2>
+            <div id="quiz-container" class="card-3d">
+                <!-- Quiz questions will be injected by JavaScript -->
+            </div>
+            <div id="quiz-result" class="card-3d"></div>
+        </div>
+    </section>
+
+    <!-- Glossary Section -->
+    <section id="glossary" class="section">
+        <div class="container">
+            <h2>Cybersecurity Glossary</h2>
+            <div class="glossary-grid">
+                <div class="glossary-item card-3d">
+                    <h3>Firewall</h3>
+                    <p>A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>VPN (Virtual Private Network)</h3>
+                    <p>Creates a secure, encrypted connection over a less secure network, such as the public internet.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>Encryption</h3>
+                    <p>The process of converting data into a code to prevent unauthorized access.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>Zero-Day Exploit</h3>
+                    <p>A cyber attack that occurs on the same day a weakness is discovered in software.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>Phishing</h3>
+                    <p>Fraudulent attempts to obtain sensitive information by disguising as a trustworthy entity.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>Malware</h3>
+                    <p>Malicious software designed to harm, exploit, or damage computer systems.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>Ransomware</h3>
+                    <p>Malware that encrypts files and demands payment for their release.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>DDoS (Distributed Denial of Service)</h3>
+                    <p>Overwhelming a target system with traffic from multiple sources to disrupt service.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>2FA/MFA</h3>
+                    <p>Two-Factor/Multi-Factor Authentication adds an extra layer of security beyond just a password.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>Social Engineering</h3>
+                    <p>Psychological manipulation to trick users into making security mistakes or giving away sensitive information.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>Penetration Testing</h3>
+                    <p>Authorized simulated cyber attacks to evaluate system security.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>Dark Web</h3>
+                    <p>Part of the internet that isn't indexed by search engines, often used for illegal activities.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>Endpoint Security</h3>
+                    <p>Protecting network endpoints like computers and mobile devices from malicious activity.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>SSL/TLS</h3>
+                    <p>Cryptographic protocols designed to provide communications security over a computer network.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>Zero Trust</h3>
+                    <p>Security model that requires all users to be authenticated and authorized before accessing resources.</p>
+                </div>
+                <div class="glossary-item card-3d">
+                    <h3>IoT Security</h3>
+                    <p>Protecting internet-connected devices and networks from cyber threats.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info card-3d">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> contact@cyberknights.io</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Cyber Street, Neo-City</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form card-3d" data-aos="fade-up">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Your Name">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="perspective-container">
+        <div class="container">
+            <p>&copy; 2023 CyberKnights. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- AOS (Animate On Scroll) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            easing: 'ease-out-cubic'
+        });
+
+        // Add character index for 3D text animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const title = document.getElementById('cyber-title');
+            if (title) {
+                const text = title.textContent;
+                title.innerHTML = '';
+                text.split('').forEach((char, index) => {
+                    const span = document.createElement('span');
+                    span.textContent = char === ' ' ? '\u00A0' : char;
+                    span.style.setProperty('--char-index', index);
+                    title.appendChild(span);
+                });
+            }
+
+
+            // Remove loading screen when page is fully loaded
+            window.addEventListener('load', function() {
+                const loading = document.getElementById('loading');
+                if (loading) {
+                    setTimeout(() => {
+                        loading.style.opacity = '0';
+                        loading.style.visibility = 'hidden';
+                    }, 500);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
